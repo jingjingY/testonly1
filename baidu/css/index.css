@@ -1,0 +1,149 @@
+body,nav,div,p,span,a,li,ul,img,input{
+    padding:0px;
+    margin:0px;  
+    /* box-sizing:border-box; */
+}
+ul,ol,li{   
+    list-style:none;    
+}
+.img{
+    border:0px;
+
+}
+
+
+.nav {
+    position: absolute;
+    top:10px;
+    right:10px;
+    display: block;
+    float:right;  
+    margin-top:10px;
+  
+}
+
+.nav  li{
+    float:left;
+    margin-right:20px;
+    font-weight: bold;
+    font-size:13px;
+}
+
+.nav li a{
+    
+    color:#000;
+   
+    text-decoration:underline;
+}
+.nav  li a:hover{
+  
+    color:rgb(13, 0, 197);
+  
+    text-decoration:underline;
+}
+.nav  .login,
+.nav .set{
+    float:left;
+    margin-right:20px;
+    font-weight: normal;
+    font-size:13px;
+}
+.baidu-logo{
+    display: block;
+    width:420px;
+    height:auto;
+    margin:0 auto;
+    margin-top:260px;
+  
+}.baidu-logo img{
+    width:420px;
+}
+.form-box {
+    margin:5px  auto;
+    width:640px;
+    position: relative;
+} 
+form .shuru{
+    
+    width:540px;
+    height:36px;
+    border:none;
+    padding:8px;
+    /* background-color: transparent; */
+    border:1px solid #3385FF;
+}
+
+
+form .tijiao{
+    border:none;
+    width:100px;
+    height:36px;
+    line-height:36px; 
+   
+    background-color:#3385FF;
+    color:#fff;
+   
+    
+}
+.form-box span{
+  
+   position: absolute;
+    display: block;
+   top:8px;
+   left: 510px;
+    width:18px;
+    height:19px; 
+    background-position: 0px 1.5px;
+    background-image: url(../images/camera_new_5606e8f.png);
+}
+.form-box span:hover{
+    background-position: 0px -18px;
+    background-image: url(../images/camera_new_5606e8f.png);
+    
+}
+
+.two-d-code{
+    margin:0 auto;
+   margin-top:170px;
+   margin-bottom:90px;
+    width:60px;
+    height:60px;
+    
+    text-align: center;
+    font-size:12px;
+  
+}
+.two-d-code p {
+ margin-top:5px;
+}
+
+p{
+    height:12px;
+    font-size:12px;
+    line-height: 12px;
+    text-align: center;
+}
+p a{
+    margin-right:5px;
+    color:#424242;
+    
+}
+p span{
+    margin-right:5px;   
+}
+.jc-ico1{
+    display: inline-block;
+   
+    width:14px;
+    height:16px;
+    background-image: url(../images/icons_5859e57.png);
+    background-position:-600px  -95px; 
+}
+.jc-ico2{
+    top:1px;
+    display: inline-block;
+    width:14px;
+    height:16px;
+    background-image: url(../images/icons_5859e57.png);
+    background-position:-623px  -95px; 
+}
