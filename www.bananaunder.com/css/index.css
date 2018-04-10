@@ -216,9 +216,9 @@ margin:0 auto;
 } */
 
 .product .more-btn{
+	color:#000;
 	margin:0 auto;
 	padding:12px 36px;
-
     width:100px; 
 	text-align: center;
 	font-size:16px;
@@ -227,6 +227,7 @@ margin:0 auto;
 
 .product .more-btn:hover{
  color:#fff;
+ background-color: #242424;
 
 }
 footer{
